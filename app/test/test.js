@@ -26,12 +26,3 @@ describe('Boolean', function(){
     });
   });
 });
-
-describe('Boolean', function(){
-  describe('can be true or false', function(){
-    it('zero should equal false, one should equal true', function(){
-      assert.equal(1, true);
-      assert.equal(0, false);
-    });
-  });
-});
