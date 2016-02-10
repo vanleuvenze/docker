@@ -4,8 +4,14 @@ web:
     - "./app:/src/app"
   ports: 
     - "80:3000"
-  links: ['redis']
+  links:
+    - rethink
+    - postgres
 redis: 
   image: redis:latest
   ports:
     - "6379:6379"
+rethink:
+  image: rethinkdb
+postgres:
+  image: postgres
