@@ -1,6 +1,6 @@
 machine:
   environment:
-    CLIENT_ID: ${CLIENT_ID}
+    clientID: 234345345
   services:
     - docker
 
