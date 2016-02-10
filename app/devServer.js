@@ -7,7 +7,7 @@ var path = require('path');
 
 var app = express();
 
-console.log(process.env)
+console.log(process.env.CLIENT_ID)
 // var client = redis.createClient(
 //   process.env.REDIS_1_PORT_6379_TCP_PORT || 6379,
 //   process.env.REDIS_1_PORT_6379_TCP_ADDR || '127.0.0.1'
